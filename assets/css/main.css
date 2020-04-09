@@ -1,0 +1,54 @@
+body{
+	zoom:0.85;
+}
+header{
+	overflow: hidden;
+}
+#work h3{
+	margin-top: -300px;
+}
+.work{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+header img {
+  zoom:1.2;
+  transform: translateX(0%);
+  position: relative;
+}
+.header .col.s5{
+	transform: translateY(-180%);
+}
+.contact{
+	margin-top: 25px;
+	margin-left: -20px;
+}
+.contact img{
+	min-width: 20px;
+}
+button{
+	padding: 25px;
+	margin-top: 15px;
+	font-size: 25px;
+	border-radius: 25px;
+}
+#left-col-space{
+	margin-bottom: 320px;
+}
+#left-col-space2, #right-col-space, #right-col-space2{
+	margin-bottom: 580px;
+}
+.portfolio{
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+footer{
+	padding-top: 100px;
+	padding-bottom: 15px;
+}
+footer .col.s3{
+	margin-top: 85px;
+	margin-bottom: 15px;
+
+}
+

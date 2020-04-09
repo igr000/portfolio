@@ -4,7 +4,7 @@
 ---------------------------------------------------------------------------------
 --- Author: Irene Gayle Roque ---------------------------------------------------
 ********************************************************************************/
-class Materialize_Basic extends Ci_Controller{
+class Materialize_FrontEnd extends Ci_Controller{
 	
 	public function __construct(){
 		parent::__construct();
@@ -13,8 +13,8 @@ class Materialize_Basic extends Ci_Controller{
 	public function index(){
 		//loads materializecss_header view page
 		$this->load->view('materializecss_header');
-		//loads materializecss_basic view page
-		$this->load->view('materializecss_basic');
+		//loads materializecss_frontend view page
+		$this->load->view('materializecss_frontend');
 		//loads materializecss_footer view page
 		$this->load->view('materializecss_footer');
 	}
